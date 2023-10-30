@@ -1,0 +1,45 @@
+.top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    border: 5%;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 0%;
+    cursor: pointer;
+    z-index: 999;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+    transition: 0.3s ease-in-out;
+  }
+  
+  .top-button:hover {
+    background-color: #555;
+    transform: scale(1.1);
+  }
+  .top-button a{
+    text-decoration: none;
+    color: #CC0033;
+  }
+  .float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	left:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    transition: 0.3s ease-in-out;
+  z-index:100;
+}
+.float:hover{
+    color:#CC0033;
+    transform: scale(1.2);
+}
+.my-float{
+	margin-top:16px;
+}

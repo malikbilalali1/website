@@ -1,0 +1,1419 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Roboto:ital,wght@1,500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.navbar-brand{
+    font-weight: 800;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-brand:hover{
+    color :#CC0033!important;
+    transition: all .3s ease;
+}
+.navigation .navbar-toggler{
+    padding-right: 1rem;
+    outline: #fff!important;
+    border: none!important;
+}
+.navbar .fa {
+    color: #fff!important;
+    font-size: 1rem;
+
+}
+.nav-link{
+    color: #fff!important;
+    overflow: hidden;
+    transition:  .3s;
+}
+.nav-item{
+    margin-right: 17px;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 15px;
+    overflow: hidden;
+    transition:  .3s;
+}
+.nav-item:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 100%;
+    width:50%;
+    height: 2px;
+    background: #CC0033;
+    transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.nav-item:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 100%;
+    width:50%;
+    height: 2px;
+    background: #CC0033;
+    transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.nav-item:hover{
+    /* color: #2eca6a!important; */
+   color: #CC0033;
+}
+.nav-item:hover:before{
+    /* color: #2eca6a!important; */
+   right: 0;
+
+}
+.nav-item:hover:after{
+    /* color: #2eca6a!important; */
+   left: 0;
+
+}
+.vl {
+    border-left: 6px solid #CC0033;
+    height: 90px;
+    position: relative;
+    transition:0.3s ease-in ;
+    left:8%;
+    top:30%;
+  }
+.section-1{
+    /* display: flex; */
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3)), url(../img/bg.jpg);
+    height: 70vh;
+    background-attachment: fixed;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+}
+.section-1 h1{
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 90px;
+    position: relative;
+    color: #fff;
+    top: 100px;
+    left:9%;
+    top:26%;
+    transition: 0.5s ease;
+    text-shadow: 0px 0px 5px #000;
+}
+.section-1 h2{
+    position: relative;
+    top:25%;
+    font-weight: 500;
+    font-size: 3rem;
+    color: #ECF0F1;
+    text-shadow: 0px 0px 5px #000;
+}
+.section-1 p{
+   position: relative;
+top: 18%;
+font-family: 'Montserrat', sans-serif;
+font-size: 20px;
+padding-right: 20%;
+text-shadow: 0px 0px 5px #000;
+color:#fff;
+left: 10%;
+}
+
+.section-1 .btn{
+position: relative;
+border-radius: 0;
+background-color: #CC0033 ;
+color: #fff;
+border: none;
+top:22%;
+left:46%;
+}
+.btn:hover{
+border-radius: 0;
+background-color: white ;
+color: #000;
+border: none;
+}
+.heading{
+    text-align: left;
+}
+.box{
+    width: 100%;
+    /* height: 600px; */
+    padding: 40px 60px;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+.section-2{
+    background: #fff;
+    width: 100%;
+    padding: 40px 60px;
+    /* color: white; */
+    font-family: sans-serif;
+    text-align: center;
+    overflow-x: hidden;
+    
+}
+.section-2 h1{
+    color: #CC0033;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top: 3px;
+    font-size: 35px;
+    font-weight: 600;
+    text-shadow: 0px 0px 5px #fff;
+
+}
+.section-2 p{
+    font-size: 17px;
+    padding: 5%;
+    color:black;
+    text-align: justify;
+    margin-right: 30%;
+    font-family: 'Bona Nova', serif;
+/* font-family: 'Roboto', sans-serif; */
+    font-weight:500 ;
+}
+.section-2 .fa-solid.fa-book-open-reader{
+    position: relative;
+    left: 390px;
+    /* height: 45vh; */
+    top:-360px;
+    font-size: 180px;
+    color: #CC0033;
+    /* border-bottom: 2px solid #c7c0c0;
+    border-top: 2px solid #c7c0c0; */
+    border-radius: 23px;
+    transition: 0.5s ease-in-out;
+}
+.section-2 .fa-solid.fa-book-open-reader:hover{
+    transform: scale(1.2);
+}
+.section-2 .fa-solid.fa-phone-volume:hover{
+color: #c7c0c0;
+font-size: 230px;
+border-radius: 23px;
+transition: 0.3s ease-in;
+}
+.sec p{
+    font-size: 0.4rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.sec span{
+color: #CC0033;
+ }
+ .sec b{
+    font-size: 1.3rem;
+    position: relative;
+    bottom: 14px;
+ }
+ .sec p{
+    color:#000 ;
+    margin-top: 20px;
+    text-align:justify;
+    font-size: 1.2rem;
+    padding-right: 20px;
+    margin: 5%;
+ }
+ .col-md-4{
+    margin-top: 2%;
+    margin-bottom: 2%;
+ }
+.section-3{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/kenny-eliason-1-aA2Fadydc-unsplash.jpg);
+    background-attachment: fixed;
+    background-size:cover;
+    position: relative;
+    /* width: 100%;
+    height: 100%; */
+}
+.section-3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background: rgba(0, 0, 0, 1); */
+    opacity: 0.7;
+  }
+.dis{
+    display: none;
+}
+.section-4{
+    background: #fff;
+    /* height: 10%; */
+    /* margin-bottom: -28%; */
+    color: #000;
+    
+}
+.section-4 .courses{
+display: flex;
+padding: 3%;
+}
+.section-4 .courses h2{
+font-family: 'Times New Roman', Times, serif;
+font-weight: 600;
+padding-top: 10px;
+padding-left: 40px;
+width: 150%;
+}
+.section-4 .courses p{
+    margin-top: 5%;
+    margin-left: -33%;
+    padding-right: 5%;
+    text-align: justify;
+    font-family: 'Bona Nova', serif;
+}
+.section-4 img{
+    padding: 1px;
+    box-shadow: 0px 0px 10px 2px rgba(197, 53, 53, 0.788);
+    transition: 0.3s ease-in-out;
+}
+.section-4 img:hover{
+transform: scale(1.2);
+}
+.box p{
+        font-size: 20px;
+        margin-top: 100px;
+        /* text-shadow: 0px 0px 5px #000; */
+}
+
+.background{
+    background: rgba(0,0,0,0.7) url(../img/bg.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+  .section-2 h1{
+    color: #CC0033;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top: 3px;
+    font-size: 25px;
+    font-weight: 600;
+    text-shadow: 0px 0px 5px #fff;
+
+}
+.section-4{
+    /* justify-content: left;*/
+    text-align: left; 
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.section-4 .btn{
+    position: relative;
+    border-radius: 0;
+    /* background-color:  ; */
+    color: #CC0033;
+    border:2px solid #CC0033;
+    top:22%;
+    left:2%;
+    width: 25%;
+    transition: 0.5s ease-in-out;
+    /* transition: 0.3s ease-out; */
+    }
+.section-4 .btn:hover{
+    
+    /* background-color: #CC0033 ;
+    color: #fff; */
+    color: #CC0033;
+    border:2px solid #CC0033;
+    transform: scale(1.2);
+    
+
+    }
+.section-4 .fa-brands.fa-skype{
+    font-size: 30px;
+    background-color: #00aff0;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: White;
+    margin-left: 10%;
+    margin-top: -3%;
+    transition: 0.3s ease-out;
+  }
+.section-4 .fa-brands.fa-skype:hover{
+    height: 60px;
+    width: 60px;
+    transition: 0.3s ease-in;
+}
+.section-4 .fa-solid.fa-eye{
+    color: #CC0033;
+}
+.section-4 .fa-solid.fa-phone{
+    color: #CC0033;
+    position: relative;
+    top: -120px;
+    left: 132px;
+}
+.section-4 .fa-brands.fa-whatsapp{
+    color: #CC0033;
+    position: relative;
+    top: -250px;
+    left: 133px;
+}
+.section-4 .fa-solid.fa-envelope{
+    color: #CC0033;
+    position: relative;
+    top: -380px;
+    left: 133px;
+}
+.section-4 .fa-solid.fa-location-dot{
+    color: #CC0033;
+    position: relative;
+    top: -510px;
+    left: 133px;
+}
+.section-4 .fa-solid.fa-location-crosshairs{
+    
+        color: #c7c0c0;
+        position: relative;
+        top: -890px;
+        left: 833px;
+        font-size: 180px;
+        border-bottom: 2px solid #c7c0c0;
+        border-top: 2px solid #c7c0c0;
+        border-radius: 23px;
+        transition: 0.3s ease-out;
+}
+.section-4 .fa-solid.fa-location-crosshairs:hover{
+    
+    color: #c7c0c0;
+    position: relative;
+    top: -890px;
+    left: 833px;
+    font-size: 230px;
+    border-bottom: 2px solid #c7c0c0;
+    border-top: 2px solid #c7c0c0;
+    border-radius: 23px;
+    transition: 0.3s ease-in;
+
+
+}
+
+.section-4 #googleMap{
+    position:relative;
+    top:-360px;
+    /* left:-10%; */
+    margin-top:-32%;
+    width: 100%;
+    height: 70vh;
+    box-shadow: 2px #000;
+}
+.section-4 .whatsapp{
+    color: #000;
+    position: relative;
+    top: -380px;
+    left: 200px;
+}
+.section-4 .mail{
+    color: #000;
+    position: relative;
+    top: -515px;
+    left: 200px;
+}
+.section-4 .loc{
+    color: #000;
+    position: relative;
+    top: -645px;
+    left: 200px;
+    margin-right: 70%;
+    background-color: #ECF0F1;
+}
+.section-4 .con:hover{
+color: goldenrod;
+}
+.section-4 p{
+    font-size: 16px;
+}
+.section-4 .skype{
+    color: #000;
+    position: relative;
+    top: -140px;
+    left: 200px;
+}
+.section-4 .phone{
+    color: #000;
+    position: relative;
+    top: -250px;
+    left: 200px;
+}
+  /* .trail{
+    display: flex;
+  } */
+.section-3 h2{
+    
+        font-family: 'Qwitcher Grypen', cursive;
+        font-size: 48px;
+        position: relative;
+        /* color: #CC0033; */
+        top: -14px;
+        transition: 0.5s ease;
+        text-shadow: 0px 0px 5px #000;
+    
+}
+
+.section-4 .fa-brands.fa-square-facebook{
+    color: #341d9b;
+    position: relative;
+    top: -740px;
+    left: 73px;
+}
+.section-4 .soc{
+    transition: 0.3s ease-out;
+}
+.section-4 .soc:hover{
+    font-size: 250%;
+    transition: 0.3s ease-in;
+}
+
+.section-4 .fa-brands.fa-square-instagram{
+    color: #CC0033;
+    position: relative;
+    top: -740px;
+    left: 83px;
+}
+
+.section-4 .fa-brands.fa-linkedin{
+    color: #341d9b;
+    position: relative;
+    top: -740px;
+    left: 93px;
+}
+
+.section-4 h1{
+    color: #CC0033;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top: 3px;
+    font-size: 45px;
+    font-weight: 600;
+    text-shadow: 0px 0px 5px #fff;
+    
+}
+.section-5{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("../img/Footer.jpg");
+    position: relative;
+    background-size:cover;
+    width: 100%;
+    height: 400px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    
+}
+.section-5 h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #CC0033;
+    
+}
+.vision{
+    position: relative;
+    /* left: 1%; */
+    top:-70%;
+    color: #fff;
+    width: 25%;
+    
+    }
+.vision h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #CC0033;
+    position: relative;
+    left:15%;
+    
+}
+.vision hr{
+    color:#fff;
+    height: 3px;
+    width:39%;
+    border-radius: 1px;
+    position: relative;
+    left:46%;
+
+}
+.vision .fa-solid.fa-eye{
+    color:#CC0033;
+    position: relative;
+    top: 130%;
+    left: -21%;
+}
+.vision .v2{
+    border-left: 4px solid #CC0033;
+    position: relative;
+    left:43%;
+    height: 60%;
+    position: relative;
+    top:93%;
+
+    transition:0.5s ease-in ;
+}
+
+
+.vision p{
+    font-size: 13px;
+    text-align: left;
+    position: relative;
+    top:15%;
+    left: 47%;
+}
+.contact{
+    /* margin: 10px;
+    margin-left: 25%; */
+    position: relative;
+    left:20%;
+    top:-70%;
+}
+.contact p{
+    font-size:12px;
+    position: relative;
+    left:-28%;
+    top:5px;
+}
+.contact hr{
+    color:#fff;
+    height: 3px;
+    border-radius: 1px;
+}
+.contact .fa-solid.fa-address-book{
+    color:#CC0033;
+    position: relative;
+    left:-70%;
+    top:130%
+}
+.contact .v2{
+    border-left: 4px solid #CC0033;
+    position: relative;
+    /* left:43%; */
+    height: 60%;
+    position: relative;
+    top:93%;
+
+    transition:0.5s ease-in ;
+}
+.contact .fa-solid.fa-phone{
+    color:#CC0033;
+    position: relative;
+    top: 10%;
+    left: -25%;
+}
+.contact .phone{
+    color: #fff;
+    position: relative;
+    left:25%;
+}
+.contact .fa-brands.fa-whatsapp{
+    color:#CC0033;
+    position: relative;
+    top: 10%;
+    left: -25%;
+}
+.contact .fa-solid.fa-envelope{
+    color:#CC0033;
+    position: relative;
+    top: 10%;
+    left: -25%;
+}
+.social{
+    position: relative;
+    left:30%;
+    top:-70%; 
+    width: 20%;       
+}
+.social hr{
+    color:#fff;
+    height: 3px;
+    border-radius: 1px;
+    position: relative;
+    left: 30%;
+    width:50%;
+}
+.social h1{
+    position: relative;
+    left: 5%;
+}
+.social p{
+    color: #fff;
+    position: relative;
+    left:30%;
+}
+.social .v2{
+    border-left: 4px solid #CC0033;
+    position: relative;
+    left:28%;
+    height: 60%;
+    position: relative;
+    top:93%;
+
+    transition:0.5s ease-in ;
+}
+.social .fa-brands.fa-google-plus-g{
+    color:#CC0033;
+    position: relative;
+    left:-35%;
+    top:130%
+}
+.social .fa-brands.fa-square-facebook{
+    color:#CC0033;
+    position: relative;
+    top:-5%;
+}
+.social .fa-brands.fa-instagram{
+    color:#CC0033;
+    position: relative;
+    top:-9%;
+}
+.social .fa-brands.fa-linkedin{
+    color:#CC0033;
+    position: relative;
+    top:-14%;
+}
+
+.Socialplatform{
+    position: relative;
+    top:-15%;
+    
+}
+.Socialplatform2{
+    position: relative;
+    top:-19%;
+    
+}
+.Socialplatform3{
+    position: relative;
+    top:-24%;
+}
+.social p b{
+    color: #CC0033;
+}
+.section-5 a{
+    text-decoration:none;color:white;
+}
+.section-5 a:hover{
+    color:rgb(10, 187, 231);
+}
+  @media screen and (max-width: 1112px ) {
+    .section-1 h2{
+     font-size: 2.5rem;
+    }
+    .section-1 p{
+     font-size: 1rem;
+    }
+    .vl {
+     height: 90px;
+     position: relative;
+     transition:0.3s ease-in ;
+     top: 36%;
+   }
+
+.btn{
+    position: relative;
+    top: -5px;
+}
+
+.section-2 p{
+    font-size: 70%;
+    
+}
+.section-2 .fa-solid.fa-solid.fa-book-open-reader{
+    position: relative;
+    left: 40%;
+    /* height: 45vh; */
+    top:-60vh;
+    font-size: 180px;
+    border-radius: 23px;
+    transition: 0.3s ease-out;
+}
+/* */
+.section-4 .courses{
+    display: flex;
+    padding: 2%;
+    /* overflow-y: hidden;
+    overflow-x: hidden; */
+    }
+    .section-4 .courses h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-left: 40px;
+    /* width: 450%; */
+    }
+    .section-4 .courses p{
+        margin-top: 5%;
+        /* margin-left: -78%; */
+        position: relative;
+        left:3%;
+        /* padding-right: 5%; */
+        text-align: justify;
+        font-family: 'Bona Nova', serif;
+
+    }
+    .section-4 img{
+        padding: 1px;
+        position: relative;
+        top: 3vh;
+        box-shadow: 0px 0px 10px 2px rgb(202, 39, 39);
+        width: 30%;
+        height: 35%;
+        transition: 0.3s ease-in-out;
+    }
+    .section-4 img:hover{
+        transform: scale(1.2);
+    }
+    .section-4 .btn{
+        position: relative;
+        border-radius: 0;
+        /* background-color:  ; */
+        color: #CC0033;
+        border:2px solid #CC0033;
+        top:22%;
+        left:2%;
+        width: 60%;
+        transition: 0.5s ease-in-out;
+        /* transition: 0.3s ease-out; */
+        }
+    .section-4 .btn:hover{
+        
+        /* background-color: #CC0033 ;
+        color: #fff; */
+        color: #CC0033;
+        border:2px solid #CC0033;
+        transform: scale(1.2);
+        
+    
+        }
+.section-4 p{
+    font-size: 79%;
+
+}
+.section-4 .fa-solid.fa-phone{
+    position: relative;
+    left:8.5%;
+}
+.section-4 .fa-brands.fa-whatsapp{
+    position: relative;
+    left:8.5%;
+}
+.section-4 .fa-solid.fa-envelope{
+    position: relative;
+    left:8.5%;
+}
+.section-4 .fa-solid.fa-location-dot{
+    position: relative;
+    left:8.5%;
+}
+.section-4 .soc{
+
+        position: relative;
+        margin-top:15%;
+    
+}
+.section-4 .fa-solid.fa-location-crosshairs{
+        position: relative;
+        top: -940px;
+        left: 833px;
+        font-size: 180px;
+        border-bottom: 2px solid #c7c0c0;
+        border-top: 2px solid #c7c0c0;
+        border-radius: 23px;
+        transition: 0.3s ease-out;
+}
+
+.section-4 .skype{
+    position: relative;
+    left: 20%;
+}
+.section-4 .phone{
+    position: relative;
+    left: 20%;
+}
+.section-4 .whatsapp{
+    position: relative;
+    left: 20%;
+}
+.section-4 .mail{
+    position: relative;
+    left: 20%;
+}
+.section-4 .loc{
+    position: relative;
+    left: 20%;
+}
+.section-4 .fa-brands.fa-skype{
+    position: relative;
+    left:-4%;
+}
+.section-4 .fa-solid.fa-location-crosshairs{
+    position: relative;
+    font-size: 740%;
+    left:70%;
+}
+.section-4 .fa-solid.fa-location-crosshairs:hover{
+    position: relative;
+    left:70%;
+    font-size: 840%;
+}
+
+
+.section-3{
+    height: 100%;
+ }
+.dis{
+    display: inline-flexbox;
+}
+.section-4{
+    height: 100%;
+}
+.carousel-inner .carousel-item > div {
+    display: flex;
+}
+.carousel-inner .carousel-item > div:first-child {
+    display: flex;
+}
+    .card1:hover img{
+        
+        margin-left: 12%;
+      }
+      .card1 .fa-solid.fa-quote-left{
+        margin-left: 28%;
+      }
+
+    .vision{
+        width:27%;
+    }  
+    .vision p{
+        font-size: 11px;
+    }
+    .vision .fa-solid.fa-eye{
+        position: relative;
+        left:-25%;
+    }
+    .contact{
+        width:17%;
+    }
+    .contact p{
+        font-size:10px;
+        position: relative;
+        left:28%;
+        top:5px;
+    }
+    .social{
+        width:20%;
+    }
+    .social p{
+        font-size: 10px;
+    }
+    .Socialplatform{
+        position: relative;
+        top:-43px;
+        
+    }
+    .Socialplatform2{
+        position: relative;
+        top:-56px;
+    }
+    .Socialplatform3{
+        position: relative;
+        top:-74px;
+    }
+    .social .fa-brands.fa-google-plus-g{
+        position: relative;
+        left:-85px;
+    }
+  }
+
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+display: flex;
+}
+
+/* medium and up screens */
+   
+  @media screen and (max-width: 650px) {
+
+   .section-1 h2{
+    font-size: 1.5rem;
+   }
+   .section-1 p{
+    font-size: 0.7rem;
+   }
+   .vl {
+    height: 110px;
+    position: relative;
+    top: 179px;
+    transition:0.3s ease-in ;
+  }
+  .section-1 h1{
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 50px;
+    transition: 0.5s ease;
+}
+.section-2 h1{
+    position: relative;
+    top: 3px;
+    font-size: 20px;
+  }
+  
+  .section-2 p{
+    padding: 1px;
+    font-size: 50%;
+    margin-bottom: -10%;
+}
+.section-2 .fa-solid.fa-solid.fa-book-open-reader{
+    position: relative;
+    left: 40%;
+    /* height: 45vh; */
+    top:-20vh;
+    font-size: 650%;
+    border-radius: 23px;
+    transition: 0.3s ease-out;
+}
+
+  .section-1 .btn{
+    position: relative;
+    left:40%;
+    top: 193px;
+}
+.sec h1{
+    font-size: 1.5rem;
+}
+.sec p{ 
+    color:#000 ;
+    /* margin-top: 20px; */
+    text-align:center;
+    font-size: 0.9rem;
+    padding-right: 1px;
+
+    /* margin: 5%; */
+ } 
+ .sec{
+    padding: 0;
+    margin: 0;
+    font-size: 0.7rem;
+ }
+ .section-2 .fa-solid.fa-phone-volume{
+    position: relative;
+    left: 120px;
+    /* height: 45vh; */
+    top:-80px;
+    font-size: 140px;
+    color: #c7c0c0;
+    border-bottom: 2px solid #c7c0c0;
+    border-top: 2px solid #c7c0c0;
+    border-radius: 23px;
+    transition: 0.3s ease-out;
+}
+.section-2 .fa-solid.fa-phone-volume:hover{
+
+color: #c7c0c0;
+
+font-size: 180px;
+border-radius: 23px;
+transition: 0.3s ease-in;
+
+
+}
+ .section-3{
+    height: 100%;
+ }
+.dis{
+    display: flex;
+}
+/* .section-4 p{} */
+
+.section-4 .fa-solid.fa-phone{
+    position: relative;
+    /* left: 75px; */
+}
+.section-4 .fa-brands.fa-whatsapp{
+    position: relative;
+    /* left: 75px; */
+}
+.section-4 .fa-solid.fa-envelope{
+    position: relative;
+    /* left: 75px; */
+}
+.section-4 .fa-solid.fa-location-dot{
+    position: relative;
+    /* left: 75px; */
+}
+
+.section-4 .soc{
+
+    position: relative;
+    margin-top:35%;
+
+}
+.section-4 .skype{
+    position: relative;
+    left: 20%;
+}
+.section-4 .phone{
+    position: relative;
+    left: 20%;
+}
+.section-4 .whatsapp{
+    position: relative;
+    left: 20%;
+}
+.section-4 .mail{
+    position: relative;
+    left: 20%;
+}
+.section-4 .loc{
+    position: relative;
+    left: 20%;
+}
+.section-4 .courses{
+    display: flex;
+    padding: 2%;
+    /* overflow-y: hidden;
+    overflow-x: hidden; */
+    }
+    .section-4 .courses h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60%;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-left: 20px;
+    }
+    .section-4 .courses p{
+        margin-top: 10%;
+        /* margin-left: -78%; */
+        position: relative;
+        left:9%;
+        font-size: 55%;
+        margin-right: -5%;
+        text-align: justify;
+        font-family: 'Bona Nova', serif;
+    }
+    .section-4 img{
+        padding: 1px;
+        position: relative;
+        top: 3vh;
+        width: 30%;
+        height: 35%;
+    }
+    .section-4 .btn{
+        position: relative;
+        border-radius: 0;
+        /* background-color:  ; */
+        font-size: 8px;
+        color: #CC0033;
+        border:2px solid #CC0033;
+        top:2%;
+        left:2%;
+        width: 35%;
+        transition: 0.5s ease-in-out;
+        /* transition: 0.3s ease-out; */
+        }
+    .section-4 .btn:hover{
+        
+        /* background-color: #CC0033 ;
+        color: #fff; */
+        color: #CC0033;
+        border:2px solid #CC0033;
+        transform: scale(1.2);
+        
+    }
+.section-3 h1{
+    
+    /* font-family: 'Qwitcher Grypen', cursive; */
+    font-size: 20px;
+    position: relative;
+    /* color: #CC0033; */
+    top: -14px;
+    transition: 0.5s ease;
+    text-shadow: 0px 0px 5px #000;
+
+}
+.section-3 h2{
+    
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 25px;
+    position: relative;
+    /* color: #CC0033; */
+    top: -14px;
+    transition: 0.5s ease;
+    text-shadow: 0px 0px 5px #000;
+
+}
+.section-4 h1{
+    color: #CC0033;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top: 3px;
+    font-size: 25px;
+    font-weight: 600;
+    text-shadow: 0px 0px 5px #fff;
+
+}
+.section-4{
+    height: 100%;
+}
+
+.section-4 .fa-brands.fa-square-facebook{
+    color: #341d9b;
+    position: relative;
+    top: -740px;
+    left: -3px;
+}
+
+.section-4 .fa-brands.fa-square-instagram{
+    color: #CC0033;
+    position: relative;
+    top: -740px;
+    left: 3px;
+}
+
+.section-4 .fa-brands.fa-linkedin{
+    color: #341d9b;
+    position: relative;
+    top: -740px;
+    left: 13px;
+}
+.carousel-inner .carousel-item > div {
+    display: none;
+}
+.carousel-inner .carousel-item > div:first-child {
+    display: block;
+}
+.card1 h2{
+    margin-left: 12%;
+}
+.card1:hover img{
+    bottom: 46px;
+    margin-left: 33%;
+  }
+  .contact p{
+    font-size: 7px;
+}
+.social  .fa-brands.fa-google-plus-g{
+    position: relative;
+    left:-51%;
+}
+  .social{
+    width:20%;
+}
+.social h1{
+        
+    position: relative;
+    /* top: 15%; */
+    left: 10%;
+}
+.social hr{
+    position: relative;
+    /* top:15%; */
+    width:60%
+}
+.social p{
+    font-size: 9px;
+    position: relative;
+    /* top:15%; */
+    
+}
+.social .v2{
+    position: relative;
+    /* top: 108%; */
+    left:22%
+}
+.social .fa-brands.fa-square-facebook{
+    position: relative;
+    top: 2%;
+}
+.social .fa-brands.fa-instagram{
+    position: relative;
+    top: -9%;
+}
+.social .fa-brands.fa-brands.fa-linkedin{
+    position: relative;
+    /* top: 22%; */
+}
+.Socialplatform{
+    margin-top: 18%;
+    margin-left: 10%;
+}
+.Socialplatform2{
+    margin-top: 3%;
+    margin-left: 10%;
+}
+.Socialplatform3{
+    /* margin-top: -1%; */
+    margin-left: 10%;
+}
+}
+
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+display: flex;
+}
+@media screen and (max-width: 550px) {
+    .card1 h2{
+        margin-left: -17px;
+    }
+    .card1 .fa-solid.fa-quote-left{
+            margin-left: 35%;
+    }
+    .card1:hover img{
+        bottom: 46px;
+        margin-left: 28%;
+      }
+    .vision{
+        width:22%;
+    }
+    .vision h1{
+        position: relative;
+        top: 15%;
+        left: 40%;
+    }
+    .vision hr{
+        position: relative;
+        top:15%;
+        width:80%
+    }
+    .vision p{
+        font-size: 9px;
+        position: relative;
+        top:29%;
+    }
+    .vision .fa-solid.fa-eye{
+        /* position: relative;
+        top:150%; */
+        display:none;
+    }
+    .vision .v2{
+        position: relative;
+        left:41%;
+        top :108%;
+    }
+    .contact h1{
+        
+        position: relative;
+        top: 15%;
+        left: -10%;
+    }
+    .contact hr{
+        position: relative;
+        top:15%;
+        width:120%
+    }
+    .contact .fa-solid.fa-address-book{
+        display: none;
+    }
+    .contact .v2{
+        position: relative;
+        top: 108%;
+        left:-22%
+    }
+    .contact p{
+        font-size: 6px;
+        position: relative;
+        top:23%;
+        margin-left: -10%;
+        
+    }
+    .contact .fa-solid.fa-phone{
+            position: relative;
+            top:30%;
+            left:-40%;
+    }
+    .contact .fa-brands.fa-whatsapp{
+        position: relative;
+        top:30%;
+        left:-40%;
+}
+.contact .fa-solid.fa-solid.fa-envelope{
+    position: relative;
+    top:30%;
+    left:-40%;
+}
+.social .fa-brands.fa-google-plus-g{
+display: none;
+}
+.social{
+    width:20%;
+}
+.social h1{
+        
+    position: relative;
+    top: 15%;
+    left: 10%;
+}
+.social hr{
+    position: relative;
+    top:15%;
+    width:60%
+}
+.social p{
+    font-size: 9px;
+    position: relative;
+    top:15%;
+    
+}
+.social .v2{
+    position: relative;
+    top: 108%;
+    left:22%
+}
+.social .fa-brands.fa-square-facebook{
+    position: relative;
+    top: 16%;
+}
+.social .fa-brands.fa-instagram{
+    position: relative;
+    top: 24%;
+}
+.social .fa-brands.fa-brands.fa-linkedin{
+    position: relative;
+    top: 22%;
+}
+.Socialplatform{
+    margin-top: -18%;
+    margin-left: 10%;
+}
+.Socialplatform2{
+    margin-top: 3%;
+    margin-left: 10%;
+}
+.Socialplatform3{
+    margin-top: -1%;
+    margin-left: 10%;
+}
+}
+/* medium and up screens */
+@media (min-width: 768px) {
+
+.carousel-inner .carousel-item-end.active,
+.carousel-inner .carousel-item-next {
+  transform: translateX(25%);
+}
+
+.carousel-inner .carousel-item-start.active, 
+.carousel-inner .carousel-item-prev {
+  transform: translateX(-25%);
+}
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+transform: translateX(0);
+}
